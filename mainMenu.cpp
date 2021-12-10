@@ -5,5 +5,5 @@ void main() {
 	SetConsoleOutputCP(1251);
 	SetConsoleCP(1251);
 
-	system("pause")
+	system("pause");
 }
