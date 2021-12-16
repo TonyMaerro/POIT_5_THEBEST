@@ -15,18 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\shotinggame.h">
+    <ClInclude Include="guessNumber.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\snake.h">
+    <ClInclude Include="shotinggame.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\guessNumber.h">
+    <ClInclude Include="snake.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\mainMenu.cpp">
+    <ClCompile Include="mainMenu.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

@@ -18,6 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="guessNumber.h" />
+    <ClInclude Include="shotinggame.h" />
+    <ClInclude Include="snake.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mainMenu.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,14 +146,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\guessNumber.h" />
-    <ClInclude Include="..\..\shotinggame.h" />
-    <ClInclude Include="..\..\snake.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\mainMenu.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
