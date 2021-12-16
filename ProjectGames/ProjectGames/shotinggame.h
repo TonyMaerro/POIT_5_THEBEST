@@ -137,6 +137,38 @@ void startMenu() {
 }
 void setdirUP() {
 	gameover = false;
+	user1 = heightArea / 2;
+	user2 = heightArea / 2;
+	scoreOfUs1 = 0;
+	scoreOfUs2 = 0;
+	cPullsUs1 = 0;
+	cPullsUs2 = 0;
+	bonusX = widthArea / 2;
+	bonusY = rand() % heightArea + 1;
+	cBonusPull_USER1 = 0;
+	cBonusPull_USER2 = 0;
+	liveUSER1 = 30;
+	liveUSER2 = 30;
+	boxX = widthArea / 2;
+	boxY = rand() % heightArea + 1;
+	blockX = widthArea / 2;
+	blockY = 1;
+	nBlock = rand() % 4 + 1;
+	us1ShotedBonus = false;
+	us2ShotedBonus = false;
+	us1ShotedGift = false;
+	us2ShotedGift = false;
+	ShotedUs2 = false;
+	ShotedUs1 = false;
+	gameMode = false;
+	AI_came = false;
+	followingUser = false;
+	followingBox = false;
+	followingBonus = false;
+	widthArea = 15;
+	dirUs1 = ST;
+	dirUs2 = ST;
+
 }
 void drawArea() {
 	system("cls");
