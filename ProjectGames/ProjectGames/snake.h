@@ -68,7 +68,7 @@ void setup()
 	fruitX = rand() % width;
 	fruitY = rand() % height;
 	score = 0;
-
+	nTail = 0;
 }
 
 void draw()
@@ -344,4 +344,5 @@ void SnakeMain()
 			activeMenuItem = num_menu_items - 1;
 		}
 	}
+	system("color 0F");
 }

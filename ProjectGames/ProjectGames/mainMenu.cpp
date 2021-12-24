@@ -12,6 +12,7 @@ void main() {
 	int choice;
 	do
 	{
+		system("cls");
 		cout << "Выберите игру" << endl;
 		cout << "1 - Змейка 12D" << endl;
 		cout << "2 - Стрелялка 2D" << endl;

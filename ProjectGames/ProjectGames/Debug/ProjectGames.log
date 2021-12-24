@@ -10,5 +10,4 @@ D:\курс 1\Основы программной инженерии\POIT_5_THEB
 D:\курс 1\Основы программной инженерии\POIT_5_THEBEST\ProjectGames\ProjectGames\snake.h(249,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
 D:\курс 1\Основы программной инженерии\POIT_5_THEBEST\ProjectGames\ProjectGames\mainMenu.cpp(8,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
 D:\курс 1\Основы программной инженерии\POIT_5_THEBEST\ProjectGames\ProjectGames\shotinggame.h(673): warning C4172: возвращение адреса локальной или временной переменной : typeG
-  LINK : не найден или не выполнена сборка D:\курс 1\Основы программной инженерии\POIT_5_THEBEST\ProjectGames\Debug\ProjectGames.exe при последней инкрементной компоновке; выполняется полная компоновка
   ProjectGames.vcxproj -> D:\курс 1\Основы программной инженерии\POIT_5_THEBEST\ProjectGames\Debug\ProjectGames.exe
